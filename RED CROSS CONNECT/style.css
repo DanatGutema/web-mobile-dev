@@ -1,0 +1,160 @@
+.navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: red;}
+
+
+.container-fluid {
+                background-color: #3c3d3c;
+            }  
+
+
+
+ .navbar-nav  .nav-item a{
+    color: red;
+ }         
+
+
+ .collapse .navbar-collapse .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.save {
+  font-size: 35px;
+  color: red;
+  margin-top: 150px;
+  
+}
+
+ /*******************************log in page*/
+
+ .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+
+    /*********************************************/
+
+    @media (min-width: 1025px) {
+        .h-custom {
+        height: 100vh !important;
+        }
+        }
+        .card-registration .select-input.form-control[readonly]:not([disabled]) {
+        font-size: 1rem;
+        line-height: 2.15;
+        padding-left: .75em;
+        padding-right: .75em;
+        }
+        .card-registration .select-arrow {
+        top: 13px;
+        }
+        
+        .gradient-custom-2 {
+        /* fallback for old browsers */
+        background: #a1c4fd;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+        }
+        
+        .bg-indigo {
+        background-color: #4835d4;
+        }
+        @media (min-width: 992px) {
+        .card-registration-2 .bg-indigo {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        }
+        }
+        @media (max-width: 991px) {
+        .card-registration-2 .bg-indigo {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        }
+        }
+
+
+        
+
+
+
+
+        /**********************************************************home index***/
+
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+       .bg-continer{
+  background-color: #3c3d3c;
+}
+.bg-continer {
+    /*background-color: ;*/
+   /* background-size: cover;*/
+    width: 100vw;
+    height: 110vh;
+    background-image: url("ourImage.jpg");
+    background-color: gray;
+}
+
+.heading {
+    text-align: center;
+    color: red;
+}
+
+.bg-donor {
+    background-color: grey;
+    height: 100vh;
+
+}
+
+
+span {
+    /*background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");*/
+    background: url(./pngtree-smooth-glossy-heart-vector-file-ai-and-png-png-image_4557871.png);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 6s linear;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      filter: hue-rotate(0);
+    }
+    100% {
+      transform: translate(-50%, -5000%);
+      opacity: 0;
+      filter: hue-rotate(720deg);
+    }
+  }
